@@ -30,7 +30,7 @@ df.show()
 diplay(df1)
 ```
 
-## 🧾 Writing Data
+## 💾 Writing Data
 
 ```python
 df.write.csv("path")
@@ -102,7 +102,7 @@ SELECT * FROM my_table LIMIT 10;
 
 ---
 
-## 🔒  Mounting Azure Data Lake (Example)
+## 🔒 Mounting Azure Data Lake (Example)
 
 ```python
 configs = {
@@ -118,7 +118,7 @@ dbutils.fs.mount(
 
 ---
 
-## 🧹 Utilities (dbutils)
+## 🧭 Utilities (dbutils)
 
 ```python
 dbutils.help()
